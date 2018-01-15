@@ -1,0 +1,22 @@
+PODS:
+  - MQTTClient (0.10.1):
+    - MQTTClient/Core (= 0.10.1)
+  - MQTTClient/Core (0.10.1):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.10.1):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.10.1)
+  - RxSwift (4.1.1)
+
+DEPENDENCIES:
+  - MQTTClient
+  - RxSwift
+
+SPEC CHECKSUMS:
+  MQTTClient: a0f16ceec50bf80f606c37966c0b7fa8d9c9e739
+  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
+
+PODFILE CHECKSUM: cf1a78fe4b2256c71b874a0727797eb0670b4cbd
+
+COCOAPODS: 1.3.1
