@@ -4,8 +4,8 @@ MQTT is a publish-subscribe-based messaging protocol. It works on top of the TCP
 It is designed for connections with remote locations where a "small code footprint" is required or the network bandwidth is limited. 
 The publish-subscribe messaging pattern requires a message broker.
 
-Mqtt Client Manager Module is written in Swift Programming Language. 
-This module helps the app to connect witht he message broker.
+Mqtt Client Manager Module helps the app to connect with the message broker.
+This is written in Swift Programming Language. It also contains RxSwift to let the developer subscribe the new message event.
 This module consist of 3 Files:
 1. MQTT.swift
    This file helps the user to create/disable a connection, subscribe/ unsubscribe a topic. 
